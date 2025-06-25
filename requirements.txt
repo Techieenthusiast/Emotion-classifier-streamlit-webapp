@@ -1,0 +1,6 @@
+streamlit
+tensorflow
+librosa
+soundfile
+numpy<2.0.0
+resampy
