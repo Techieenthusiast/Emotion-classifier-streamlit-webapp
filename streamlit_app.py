@@ -49,8 +49,8 @@ def extract_features(file_path, max_pad_len=200):
     return mfccs.T
 
 # Streamlit UI
-st.set_page_config(page_title="Speech Emotion Recognition", layout="centered")
-st.title("🎙️ Speech Emotion Recognition")
+st.set_page_config(page_title="Speech Emotion Classification", layout="centered")
+st.title("🎙️ Speech Emotion Classification")
 st.markdown("Upload one or more `.wav` files to predict emotions:")
 
 uploaded_files = st.file_uploader("Upload WAV files", type=["wav"], accept_multiple_files=True)
